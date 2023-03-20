@@ -17,6 +17,8 @@ dependencies:
   - pytest-cov
   - coverage
   - pymap3d>=2.9
+  # Mutability tests
+  - mutmut
   # Documentation
   - sphinx==4.5.*
   - sphinx-book-theme==0.3.*
@@ -45,6 +47,6 @@ dependencies:
   - flake8-simplify
   - pep8-naming
   - pip:
-    # Install flake8-unused-arguments through pip
-    # (not available through conda yet)
-    - flake8-unused-arguments
+      # Install flake8-unused-arguments through pip
+      # (not available through conda yet)
+      - flake8-unused-arguments
